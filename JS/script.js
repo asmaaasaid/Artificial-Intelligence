@@ -13,27 +13,29 @@ $(window).scroll(function(){
 
 // -------naigate to pages---------
 
+
 $('.about-page').click(()=>{
-    window.location.href='../HTML/about.html'
+    window.location.href='about.html'
 })
 $(".home-page").click(function(){
-    window.location.href='../HTML/index.html'
+    window.location.href='index.html'
 })
 $(".project-page").click(function(){
-    window.location.href='../HTML/projects.html'
+    window.location.href='projects.html'
 })
 $(".service-page").click(function(){
-    window.location.href='../HTML/services.html'
+    window.location.href='services.html'
 })
 $(".contact-page").click(function(){
-    window.location.href='../HTML/contact.html'
+    window.location.href='contact.html'
 })
 $("#teamPage").click(function(){
-    window.location.href='../HTML/teams.html'
+    window.location.href='teams.html'
 })
 $("#faqPage").click(function(){
-    window.location.href="../HTML/faq's.html"
+    window.location.href="faq's.html"
 })
+
 
 // --------------section counter
 let numbers = document.querySelectorAll('.num')
